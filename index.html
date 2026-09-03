@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web Devoloper</title>
+    <style>
+      body{
+        background-color: black;
+        text-align: center;
+        color: white;
+      }
+      nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+      }
+
+      a{
+        margin-left: 30px;
+        text-decoration: none;
+        color: white;
+      }
+      a:hover{
+        background: gold;
+      }
+      .slogan{
+        position: relative;
+        top: 25px;
+        margin-right: 75px;
+      }
+      .hero{
+        margin-top: 120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .hero-text{
+        width: 50%;
+      }
+      .hero-image{
+        width: 50%;
+      }
+      .hero h1{
+        font-size: 55px;
+      }
+      .small-text{
+        color: gold;
+        font-size: 15px;
+      }
+      .button{
+        padding: 12px 25px;
+        margin: 10px;
+        background-color: red;
+        cursor: pointer;
+        border-radius: 10px;
+      }
+      .image{
+        width: 450px;
+        height: 450px;
+        cursor: pointer;
+      }
+      .cards{
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        background-color: #333;
+      }
+      .service-card{
+        background-color: #1f1f1f;
+        padding: 25px;
+        border-radius: 12x;
+        width: 300px;
+      }
+      .servives{
+       padding: 80px 60px;
+       text-align: center;
+      }
+      .services h2{
+        font-size: 40px;
+        margin-bottom: 50px;
+        color: gold;
+        cursor: pointer;
+      }
+      .service-card h3{
+        font-size: 25px;
+      }
+      .service-card:hover{
+        transform: translateY(-10px);
+      }
+      .service-card{
+        transition: 0.3s;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h2>Shamzzy Tech</h2>
+     <div>
+      <a href="">Home</a>
+      <a href="">About</a>
+      <a href="">Services</a>
+      <a href="">Contact</a>
+     </div>
+          <p class="slogan">Build the Future With Us</p>
+    </nav>
+    <section class="hero">
+      <div class="hero-text">
+        <p class="small-text">Welcome to SHAMZZY company</p>
+    <h1>We Build Websites That Grow Businesses</h1>
+       <p class="description">Shamzzy Tech creates modern websites, web applications and digital solutions</p>
+       <button class="button">[Get Started]</button>
+       <button class="button">[View Projects]</button>
+      </div>
+
+      <div class="hero-image">
+       <img class="image" src="laptop.png" alt="laptop">
+
+      </div>
+    </section>
+
+    <section class="services">
+     <h2>Our Services</h2>
+    <div class="cards">
+
+      <div class="service-card">
+     <h3>Web Development</h3>
+     <p>We Build fast and modern websites</p>
+     </div>
+
+     <div class="service-card">
+       <h3>Mobile Apps</h3>
+      <p>We create modern Apps for Android and Iphone.</p>
+     </div>
+
+     <div class="service-card">
+      <h3>UI/UX Design</h3>
+      <p>We design beautiful and easy-to-use interfaces.</p>
+     </div>
+
+    </div>
+     
+
+    </section>
+    
+  </body>
+</html>
