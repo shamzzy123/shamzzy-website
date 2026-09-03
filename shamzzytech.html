@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHAMZZY-TECH</title>
+  <style>
+    body{
+      background-color: WHITE;
+    }
+    span{
+      display: block;
+      font-size: 20px;
+    }
+    .tech{
+      background-image: url(tech.PNG);
+      background-size: cover;
+      background-position: center;
+      min-height: 100vh;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      width: 2000px;
+      box-sizing: border-box;
+    }
+    a {
+      color: white;
+      margin-left: 20px;
+      font-family: Arial, sans-serif;
+      font-size: 17px;
+      font-weight: 10;
+      line-height: 0.95;
+      color: white;
+      text-transform: uppercase;
+    }
+    button {
+      background-color: rgba(212, 11, 212, 0.658);
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-left: 20px;
+    }
+    nav{
+      display: flex;
+      align-items: center;
+    }
+    .future{
+      display: block;
+      color: purple;
+    }
+    .ref{
+      margin-bottom: 638px;
+    }
+    p{
+     color: white;
+    }
+    h2{
+      color: white;
+      margin-bottom: 638px;
+      margin-left: 50px;
+    }
+    .welcome{
+      position: absolute;
+      bottom: 300px;
+      left: 50px;
+      margin-bottom:-18px;
+    }
+    .welcome p {
+      font-size: 25px;
+      color: white;
+      margin-bottom: -20px;
+    }
+    .apply{
+      background-color: black;
+      color: white;
+    }
+    .build{
+      font-family: Arial, sans-serif;
+      font-size: 100px;
+      font-weight: 900;
+      line-height: 0.95;
+      color: white;
+      text-transform: uppercase;
+    }
+    button{
+      margin-left: 0px;
+      margin-right: 10px;
+      padding: 20px 20px;
+      border-radius: 5px;
+    }
+    .stats-container{
+      display: flex;
+      justify-content: space-around;
+      gap: 0px;
+      text-align: center;
+      background-color: white;
+      padding: 40px 20px;
+      margin: 0;
+      border-radius: 10px; 
+      color: purple;
+      height: 90px;
+       box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    }
+  h2 {
+      color: white;
+    }
+    p {
+      color: black;
+    }
+    .stat-box{
+      color: white;
+      margin-top: 50px;
+    }
+    .shamzzy{
+      color: white;
+    }
+    .number{
+      color: black;
+    }
+    .stats {
+      display: flexbox;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      padding: 25px 10px;
+      margin: 0 5%;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    }
+    .stat{
+      flex: 1;
+      border-right: #ddd;
+    }
+    .stat:last-child {
+      border-right: none;
+    }
+    .stat i {
+      color: #5b2cff;
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+    .stat h2 {
+      margin: 5px 0;
+    }
+    .stat p {
+      margin: 5px 0 0;
+      color: #444;
+      font-size: 17px;
+    }
+    .wel{
+      margin-top: 60px;
+      color: white;
+    }
+    .learn{
+      margin-top: 40px;
+    }
+    .explore{
+      background-color: purple;
+      margin-top: 50px;
+    }
+    .programmes {
+    background-color: #f7f7f7;
+    padding: 40px 5%;
+    text-align: center;
+}
+
+.programmes h2 {
+    color: #16245c;
+    margin-bottom: 25px;
+}
+
+.programme-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.programme-card {
+    background-color: white;
+    flex: 1;
+    padding: 20px 12px;
+    border-radius: 8px;
+    box-shadow: 0 3px 12     , 9px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s;
+}
+
+.programme-card i {
+    color: #5b2cff;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.programme-card h3 {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.programme-card p {
+    color: #555;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.programme-card a {
+    color: #5b2cff;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.programme-card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+  </style>
+</head>
+<body>
+    <nav>
+      <section class="tech">
+         <div>
+          <h2 class="shamzzy">SHAMZZY TECH <span>INSTITUTE OF TECHNOLOGY</span></h2>
+         </div>
+       <div class="ref">
+        <a href="">Home</a>
+        <a href="">Programmes</a>
+        <a href="">Facilities</a>
+        <a href="">Admissions</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+        <button>APPLY NOW</button>
+       </div>
+      </section>
+    </nav>
+        <div class="welcome">
+        <p>WELCOME TO SHAMZZY TECH</p>
+        <p class="build">BUILD THE <span class="future">FUTURE.</span></p>
+        <p class="learn">Learn. Create. Innovate.</p>
+        <p class="learn">Empowering the next generation of engineers, developers,entrepreneurs<span>and technology leaders.</span> </p>
+        <button class="explore">Explore Programmes</button><button  class="apply">Apply</button>
+        </div>
+      <div>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+           <section class="stats-container">
+          <div class="stat">
+             <i class="fa-solid fa-users"></i>
+            <h2 class="number">15,000+</h2>
+            <p>students</p>
+          </div>
+          <div class="stat">
+           <i class="fa-solid fa-graduation-cap"></i><h2 class="number">120+</h2>
+           <p>Programmes</p>
+          </div>
+          <div class="stat">
+            <i class="fa-solid fa-chart-line"></i>
+            <h2 class="number">95%</h2>
+            <p>Employment Rate</p>
+          </div>
+          <div class="stat">
+               <i class="fa-solid fa-trophy"></i>
+               <h2 class="number">25+</h2>
+               <p>Years Of Excellent</p>
+          </div>
+        </section>
+      </div>
+      <section class="programmes">
+
+    <h2>OUR PROGRAMMES</h2>
+
+    <div class="programme-container">
+
+        <div class="programme-card">
+            <i class="fa-solid fa-microchip"></i>
+            <h3>Computer Engineering</h3>
+            <p>Design, build and innovate computer systems that power the world.</p>
+            <a href="#">Learn More →</a>
+        </div>
+
+        <div class="programme-card">
+            <i class="fa-solid fa-brain"></i>
+            <h3>Artificial Intelligence</h3>
+            <p>Build intelligent systems and solve real world problems.</p>
+            <a href="#">Learn More →</a>
+        </div>
+
+        <div class="programme-card">
+            <i class="fa-solid fa-code"></i>
+            <h3>Software Engineering</h3>
+            <p>Learn to design, develop and maintain modern software.</p>
+            <a href="#">Learn More →</a>
+        </div>
+
+        <div class="programme-card">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h3>Cybersecurity</h3>
+            <p>Protect systems, networks and data in an evolving digital world.</p>
+            <a href="#">Learn More →</a>
+        </div>
+
+        <div class="programme-card">
+            <i class="fa-solid fa-robot"></i>
+            <h3>Robotics Engineering</h3>
+            <p>Create smart robots and automation solutions for tomorrow.</p>
+            <a href="#">Learn More →</a>
+        </div>
+
+        <div class="programme-card">
+            <i class="fa-solid fa-briefcase"></i>
+            <h3>Business & Entrepreneurship</h3>
+            <p>Start, grow and scale businesses that make impact.</p>
+            <a href="#">Learn More →</a>
+        </div>
+
+    </div>
+
+</section>
+</body>
+</html>
